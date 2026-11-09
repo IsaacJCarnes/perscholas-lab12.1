@@ -1,13 +1,12 @@
 {
   "name": "lab-12.1",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "express": "^5.3.0"
+  }
 }
